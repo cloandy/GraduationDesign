@@ -1,0 +1,5 @@
+{
+  "ProductKey": "a1iXhrN7gRh",
+  "DeviceName": "868575026608168",
+  "DeviceSecret": "4ts1MpFVeMyxpyC3aVhg9LzRLKz8itmo"
+}
