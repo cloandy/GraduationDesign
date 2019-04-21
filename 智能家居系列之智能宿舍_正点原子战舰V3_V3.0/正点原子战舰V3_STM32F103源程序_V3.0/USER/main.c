@@ -136,7 +136,7 @@ void Smoke_Detect(void);
 			flag = 0;
 			
 		}
-		if(cnt == 500)//5s发送一次数据
+		if(cnt == 100)//5s发送一次数据
 		{
 			printf("%d %d\r\n",number,LED_OUT);
 			cnt = 0;

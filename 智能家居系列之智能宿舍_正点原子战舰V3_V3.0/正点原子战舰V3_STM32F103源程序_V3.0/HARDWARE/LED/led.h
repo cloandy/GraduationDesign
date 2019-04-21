@@ -26,9 +26,9 @@
 #define HC_SR501_2_OFF		0
 
 //光敏电阻
-#define SUN_RES_RCC			RCC_APB2Periph_GPIOC
-#define SUN_RES_Pin			GPIO_Pin_2
-#define SUN_RES_GPIO		GPIOC
+#define SUN_RES_RCC			RCC_APB2Periph_GPIOF
+#define SUN_RES_Pin			GPIO_Pin_5
+#define SUN_RES_GPIO		GPIOF
 #define SUN_RES_INPUT		GPIO_ReadInputDataBit(SUN_RES_GPIO,SUN_RES_Pin)//读取输入值
 #define SUN_RES_ON			1
 #define SUN_RES_OFF			0

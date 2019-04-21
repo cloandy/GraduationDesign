@@ -34,7 +34,7 @@ void Smart_Led_Init(void)
 	
 	RCC_APB2PeriphClockCmd(SUN_RES_RCC, ENABLE);	    //使能PC端口时钟
 	GPIO_InitStructure.GPIO_Pin = SUN_RES_Pin;			//光敏传感器输入端（数字量）-->PC.2 端口配置
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; 		//上拉输入
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD; 		//上拉输入
 	GPIO_Init(SUN_RES_GPIO, &GPIO_InitStructure);		//根据设定参数初始化GPIOC.2
 	
 	RCC_APB2PeriphClockCmd(LED_RCC, ENABLE);			 //使能PC 端口时钟
